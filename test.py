@@ -50,7 +50,7 @@ def save_message():
 def send_sms(number ='', message = ''):
     m = sms.Modem('/dev/ttyUSB0')
     message = 'HI'
-    number = '+27810394959'
+    number = ''
     m.send(number, message)
 
 # save_message()
