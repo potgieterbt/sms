@@ -5,7 +5,7 @@ from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE, SIG_DFL)
 
 
-recipient = "+27810394959"
+recipient = ""
 message = "Test"
 
 phone = serial.Serial("/dev/ttyUSB1",  115200, timeout=5)
