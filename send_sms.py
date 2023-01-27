@@ -2,10 +2,10 @@ import serial
 import time
 
 message1 = "HI"
-recipient1 = "+27810394959"
+recipient1 = ""
 
 class TextMessage:
-    def __init__(self, recipient1 = "+27810394959", message1 = "HI"):
+    def __init__(self, recipient1 = "", message1 = "HI"):
         self.recipient1 = recipient1
         self.content = message1
 
