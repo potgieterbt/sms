@@ -91,7 +91,7 @@ connect()
 
 
 
-# def __init__(self, recipient1 = "+27810394959", message1 = "HI"):
+# def __init__(self, recipient1 = "", message1 = "HI"):
 #     recipient1 = recipient1
 #     content = message1
 
